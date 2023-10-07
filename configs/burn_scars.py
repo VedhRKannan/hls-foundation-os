@@ -203,7 +203,7 @@ log_config = dict(
 checkpoint_config = dict(
     by_epoch=True,
     interval=10,
-    out_dir=save_path 
+    out_dir=save_path
 )
 evaluation = dict(
     interval=evaluation_interval,
